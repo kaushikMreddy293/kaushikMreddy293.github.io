@@ -80,6 +80,13 @@ h2 {
   margin-bottom: 15px;
 }
 
+.hero .resumeBtn {
+  margin-top: 20px;
+  padding: 10px;
+  width: 300px;
+  font-size: large;
+}
+
 /* ABOUT */
 .about-wrapper,
 .project-wrapper,
@@ -181,12 +188,7 @@ h2 {
   height: 40px;
 }
 
-.resumeBtn {
-  margin-top: 20px;
-  padding: 10px;
-  width: 300px;
-  font-size: large;
-}
+
 
 /* MOBILE */
 @media screen and (max-width: 768px) {
@@ -210,7 +212,7 @@ h2 {
   .contactBtn {
     padding: 5px !important;
   }
-  
+
   .header-wrapper {
     flex-direction: column;
     align-items: flex-start;
@@ -219,10 +221,6 @@ h2 {
   .nav-bar {
     margin-top: 10px;
   }
-}
-
-@media screen and (max-width: 768px) {
-
 }
 
 
