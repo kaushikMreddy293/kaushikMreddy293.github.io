@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles.css" />
+  <title>Portfolio</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="header-wrapper">
+      <h3>🔥 Kaushik Malikireddy</h3>
+      <nav class="nav-bar">
+        <a href="#contact">
+          <button onclick="openPdf()">My Resume</button>
+          <button>Contact me</button>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div>
+      <img class="profile-img" src="./assets/crop-me.png" />
+    </div>
+    <h1>Hey, I'm Kaushik 👋</h1>
+    <p>Developer | Ideator | Presenter | Leader</p>
+  </div>
+
+  <!-- ABOUT -->
+  <div class="about">
+    <div class="about-wrapper">
+      <div class="col">
+        <h2>My Career So Far</h2>
+        <p>
+        <ul>
+          <li>> SE Graduate Student at Northeastern University</li>
+          <li>> 3 years of UI Developer at ABB Global Industries</li>
+          <li>> Bachelors in Computer Science Engineering from India</li>
+          <li>> Rotaract club Founder & President</li>
+        </ul>
+        </p>
+      </div>
+      <div class="skills col">
+        <h2>My Skills</h2>
+        <ul>
+          <li>Java</li>
+          <li>Angular</li>
+          <li>TypeScript</li>
+          <li>NodeJS</li>
+          <li>ExpressJS</li>
+          <li>HTML</li>
+          <li>CSS/SCSS</li>
+          <li>JavaScript</li>
+          <li>ReactJS</li>
+          <li>Bootstrap</li>
+          <li>MySQL</li>
+          <li>Mongo DB</li>
+          <li>Python</li>
+          <li>Azure</li>
+          <li>Object Oriented Programming</li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="projects">
+    <div class="project-wrapper">
+      <h2>My Projects/ My Experience</h2>
+      <ul>
+        <li>
+          <a href="#">
+            <img src="./assets/1.png" />
+            <h3>ResQReach</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/2.png" />
+            <h3>WORK EXP</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img src="./assets/3.png" />
+            <h3>CMS</h3>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- SOCIALS -->
+  <div class="socials" id="contact">
+    <div class="socials-wrapper">
+      <div>
+        <h2>Contact Me</h2>
+        <p>+1 857-398-8834</p>
+        <p>kaushikred293@yahoo.com Or malikireddy.k@northeastern.edu</p>
+        <p>Boston, Massachusetts</p>
+      </div>
+      <div class="social-icons">
+        <a href="https://github.com/kaushikMreddy293" target="_blank"><img src="./assets/github.svg" /></a>
+        <a href="https://www.linkedin.com/in/kaushik-malikireddy-ba359a129/" target="_blank"><img
+            src="./assets/linkedin.svg" /></a>
+        <!-- <a href="#"><img src="./assets/twitter.svg" /></a> -->
+        <a href="#contact" onclick="redirectToEmail()" ><img src="./assets/mail.svg" /></a>
+        <!-- <button onclick="redirectToEmail()">Contact me</button> -->
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openPdf() {
+      window.open('./assets/Kaushik_resume_VII.pdf', '_blank');
+    }
+    function redirectToEmail() {
+      window.location.href = "mailto:malikireddy.k@northeastern.edu";
+    }
+  </script>
+
+</body>
+
+</html>
